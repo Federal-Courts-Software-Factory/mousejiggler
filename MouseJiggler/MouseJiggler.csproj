@@ -11,17 +11,28 @@
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>false</SelfContained>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-    <Authors>Alistair J. R. Young</Authors>
-    <Company>Arkane Systems</Company>
-    <Description>A utility to continuously jiggle the mouse pointer to prevent screen saver activation.
+    <Authors>Alistair J. R. Young &amp; Robert McAtee</Authors>
+    <Company>Arkane Systems, United States Bankruptcy Court for the Western District of Texas</Company>
+    <Description>This Version of MouseJiggler is a fork (derivative work) from GitHub.com. The code has been inspected in its entirety and approved for use at the United States Bankruptcy Court for the Western District of Texas and was committed to the Federal Courts Software Factory GitHub.com source code repository. Slight modifications have been made to tweak the product for use at the Federal Judiciary. 
+
+Original Copyright: Copyright © Alistair J. R. Young 2007-2021
+Distributed Under: Microsoft Public License (Ms-PL)
+
+~ Original Description Follows ~
+
+A utility to continuously jiggle the mouse pointer to prevent screen saver activation.
 
 Tick the 'Jiggling?' checkbox to begin jiggling the mouse; untick it to stop. The 'Zen jiggle?' checkbox (under "Settings...") enables a mode in which the pointer is jiggled 'virtually' - the system believes it to be moving and thus screen saver activation, etc., is prevented, but the pointer does not actually move. This may not work for idle detection under all applications.</Description>
     <Copyright>Copyright © Alistair J. R. Young 2007-2021</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/cerebrate/mousejiggler</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Federal-Courts-Software-Factory/mousejiggler</PackageProjectUrl>
     <NeutralLanguage>en-US</NeutralLanguage>
     <AssemblyVersion>2.0.14.0</AssemblyVersion>
     <FileVersion>2.0.14.0</FileVersion>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageId>MouseJiggler Federal Courts Software Factory Fork</PackageId>
+    <Product>MouseJiggler Federal Courts Software Factory Fork</Product>
+    <AssemblyName>MouseJigglerFCSF</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

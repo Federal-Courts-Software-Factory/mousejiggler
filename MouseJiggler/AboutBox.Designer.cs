@@ -45,8 +45,8 @@ namespace ArkaneSystems.MouseJiggler
             // baseLayout
             // 
             this.baseLayout.ColumnCount = 2;
-            this.baseLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.baseLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67F));
+            this.baseLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.baseLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.baseLayout.Controls.Add(this.cmdOk, 1, 5);
             this.baseLayout.Controls.Add(this.pbLogo, 0, 0);
             this.baseLayout.Controls.Add(this.lbProductName, 1, 0);
@@ -76,6 +76,7 @@ namespace ArkaneSystems.MouseJiggler
             this.baseLayout.SetRowSpan(this.pbLogo, 6);
             this.pbLogo.Size = new System.Drawing.Size(131, 257);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbLogo.TabIndex = 0;
             this.pbLogo.TabStop = false;
             // 
@@ -159,7 +160,7 @@ namespace ArkaneSystems.MouseJiggler
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.cmdOk;
-            this.ClientSize = new System.Drawing.Size(434, 281);
+            this.ClientSize = new System.Drawing.Size(700, 281);
             this.Controls.Add(this.baseLayout);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
